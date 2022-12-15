@@ -12,25 +12,25 @@ void jack_bauer(void)
 		{
 			if (j < 10)
 			{
-				_putchar('0');
-				_putchar(j + '0');
+				putchar('0');
+				putchar(j + '0');
 			}
 			else if (j >= 10)
 			{
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
+				putchar((j / 10) + '0');
+				putchar((j % 10) + '0');
 			}
 			if (k < 10)
 			{
-				_putchar(':');
-				_putchar('0');
-				_putchar(k + '0');
+				putchar(':');
+				putchar('0');
+				putchar(k + '0');
 			}
 			else if (k >= 10)
 			{
-				_putchar(':');
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
+				putchar(':');
+				putchar((j / 10) + '0');
+				putchar((j % 10) + '0');
 			}
 			putchar('\n');
 		}
