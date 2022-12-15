@@ -26,12 +26,13 @@ void jack_bauer(void)
 				_putchar('0');
 				_putchar(k);
 			}
-			else if (k > 10)
+			else if (k >= 10)
 			{
 				_putchar(':');
 				_putchar((j / 10) + '0');
 				_putchar((j % 10) + '0');
 			}
+			_putchar('\n');
 		}
 	}
 }
