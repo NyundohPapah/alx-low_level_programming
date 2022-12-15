@@ -30,8 +30,8 @@ void jack_bauer(void)
 			else if (k >= 10)
 			{
 				_putchar(':');
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
 			}
 		}
 	}
