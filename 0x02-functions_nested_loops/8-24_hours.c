@@ -10,6 +10,7 @@ void jack_bauer(void)
 	{
 		for (k = 0; k < 60; k++)
 		{
+			putchar('\n');
 			if (j < 10)
 			{
 				putchar('0');
@@ -32,7 +33,6 @@ void jack_bauer(void)
 				putchar((j / 10) + '0');
 				putchar((j % 10) + '0');
 			}
-			putchar('\n');
 		}
 	}
 }
