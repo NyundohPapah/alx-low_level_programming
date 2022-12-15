@@ -10,28 +10,28 @@ void jack_bauer(void)
 	{
 		for (k = 0; k < 60; k++)
 		{
-			putchar('\n');
+			_putchar('\n');
 			if (j < 10)
 			{
-				putchar('0');
-				putchar(j + '0');
+				_putchar('0');
+				_putchar(j + '0');
 			}
 			else if (j >= 10)
 			{
-				putchar((j / 10) + '0');
-				putchar((j % 10) + '0');
+				_putchar((j / 10) + '0');
+				_putchar((j % 10) + '0');
 			}
 			if (k < 10)
 			{
-				putchar(':');
-				putchar('0');
-				putchar(k + '0');
+				_putchar(':');
+				_putchar('0');
+				_putchar(k + '0');
 			}
 			else if (k >= 10)
 			{
-				putchar(':');
-				putchar((j / 10) + '0');
-				putchar((j % 10) + '0');
+				_putchar(':');
+				_putchar((j / 10) + '0');
+				_putchar((j % 10) + '0');
 			}
 		}
 	}
