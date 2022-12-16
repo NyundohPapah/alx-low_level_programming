@@ -2,7 +2,8 @@
 #include <unistd.h>
 
 /**
- * main - prints the exact wordings folowed by a new line, to the standard error
+ * main - prints the exact wordings 
+ * followed by a new line, to the standard error
  * Return: Always 0 (Success)
  */
 
