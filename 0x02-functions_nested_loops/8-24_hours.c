@@ -6,9 +6,9 @@ void jack_bauer(void)
 {
 	int j, k;
 
-	for (j = 0; j < 24; j++)
+	for (j = 0; j <= 24; j++)
 	{
-		for (k = 0; k < 60; k++)
+		for (k = 0; k <= 60; k++)
 		{
 			_putchar('\n');
 			if (j < 10)
